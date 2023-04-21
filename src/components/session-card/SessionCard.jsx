@@ -6,7 +6,7 @@ const SessionCard = ({ session }) => {
 
   return (
     <section
-      className={`w-[18rem] h-fit rounded-2xl ${
+      className={`w-[90%] sm:w-[80%] md:w-[18rem] h-fit rounded-2xl ${
         cardStyle === "basic"
           ? "bg-[#ffffff]"
           : cardStyle === "recommended"

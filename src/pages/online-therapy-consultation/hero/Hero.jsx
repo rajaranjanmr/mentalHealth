@@ -54,7 +54,7 @@ const Hero = () => {
 
   return (
     <section className="relative bg-image bg-center bg-cover bg-no-repeat h-screen ">
-      <div className="w-4/6 flex flex-col gap-4 absolute top-40 left-44">
+      <div className="flex flex-col gap-4 w-72 pt-14 sm:w-96 sm:pt-24 mx-auto md:w-4/6 md:w-full md:absolute md:top-40 md:left-44">
         <h1 className="text-5xl">{title}</h1>
         <h3 className="text-xl text-blue-700">{subTitle}</h3>
         <div className="mt-4">
